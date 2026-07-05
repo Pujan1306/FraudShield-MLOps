@@ -1,9 +1,24 @@
+# Environments
 venv/
 .env
+
+# Python Caching
 __pycache__/
 *.pyc
 .pytest_cache/
+
+# IDE and Editor settings
+.idea/
+.vscode/
+
+# Data and Artifacts
 data/
+models/
+
+# MLflow Tracking
 mlruns/
 mlflow_artifacts/
-models/
+mlflow.db
+
+# Dependency Managers
+uv.lock
